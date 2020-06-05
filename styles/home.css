@@ -1,24 +1,175 @@
-body{
-    background:#E0E0E0;
-    font-family:Arial;
-  }
-  
-  .menu ul {
-    display: flex;
-    justify-content:space-around;
-  }
-  
-  .menu li {
-    list-style: none;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .site-subtitle,
-  .site-title {
-    text-align: center;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#C4C4C4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  top:0px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content:space-around;
+  background-color: #333333;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  justify-content:block;
+  display: block;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;;
+  padding: 10px 40px;
+  background-color: skyblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  text-align: center;
+}
+
+.site-subtitle{
+  font-size: medium ;
+  line-height:25px;
+}
+
+body header div {
+  background-color: #F2F2F2;
+  margin: 80px auto;
+  padding: 180px;
+  border-radius: 8px;
+  max-width:1300px;
+}
+
+.mathCadeira {
+  display: flex;
+  justify-content: center;
+  padding: 80px auto;
+}
+
+.sobre {
+  background-color: pink;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre-title,
+.sobre-text {
+  text-align: center;
+  padding-left: 100px;
+}
+
+.sobre-text{
+  font-size: medium ;
+  line-height:25px;
+}
+
+.title-galeria{
+  text-align: center;
+}
+
+.galeria{
+  background-color: skyblue;
+  display: grid;
+  gap:30px;
+  grid-template-columns: 240px 240px 240px;
+  justify-content: center;
+}
+
+.galeria figure {
+  text-align: center;
+}
+.img-galeria {
+  height: 180px;
+  width: 240px;
+}
+
+.title-depoimentos {
+  text-align: center;
+}
+
+.title-contato{
+  text-align: center;
+}
+
+.dino,
+.marilene,
+.jarbas,
+.mamaeDoMath,
+.giovane,
+.rapha {
+  background-color: #F2F2F2;
+  margin: 10px auto;
+  padding: 80px;
+  border-radius: 8px;
+  max-width: 1000px;
+}
+
+.face,
+.linkedin,
+.steam,
+.spoty,
+.insta{
+
+  margin-right: 16px;
+  display: flex;
+
+  width: 258px;
+  height: 258px;
+
+}
+
+.face {
+  background-image: url('../assets/facebook.svg');
+}
+
+.linkedin {
+  background-image: url('../assets/linkedin.svg');
+}
+
+.steam {
+  background-image: url('../assets/steam.svg');
+}
+
+.spoty {
+  background-image: url('../assets/spotify.svg');
+}
+
+.insta {
+  background-image: url('../assets/instagram.svg');
+}
+
+.contato div{
+  display: flex;
+  justify-content: space-around;
+}
+.contato div {
+  margin-top: 50px;
+}
+
+.emjel {
+  display: flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+  margin: 50px auto;
+  padding: 5px;
+  border-radius: 8px;
+  max-width: 1300px;
+}
