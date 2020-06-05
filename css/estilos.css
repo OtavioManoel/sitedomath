@@ -93,7 +93,7 @@ body header div {
 .galeria{
   display: grid;
   gap:30px;
-  grid-template-columns: 740px  340px  740px ;
+  grid-template-columns: 440px  340px  440px ;
   justify-content: center;
 }
 
@@ -124,7 +124,9 @@ body header div {
 .jarbas,
 .mamaeDoMath,
 .giovane,
-.rapha {
+.rapha,
+.alan,
+.casado {
   background-color: #F2F2F2;
   margin: 10px auto;
   padding: 80px;
